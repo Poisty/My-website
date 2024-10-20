@@ -15,11 +15,11 @@ function Nav() {
         <nav>
             <ul>
                 {url !== "/" && <li>
-                    <Link to="/">Home</Link>
+                    <NavItem to="/" text="Home" />
                 </li>}
                 
                 <li className="dropdown">
-                    <Link to="#">Courses</Link>
+                    <Link className='' to="#">Courses</Link>
                     <div className="dropdown-content">
                         <Link to="/programming">Programmering</Link>
                         <Link to="#">Network and security</Link>
@@ -36,27 +36,19 @@ function Nav() {
                         <Link to="#"></Link>
                     </div>
                 </li>
-                <li>
-                    <Link to="/about">About</Link>
-                </li>
-                <li>
-                    <Link to="#">Contact</Link>
-                </li>
+                <NavItem to="about" text="About" />
+                <NavItem to="#" text="Contact" />
             </ul>
         </nav>
     )
 }
 
-export function NavItem() {
+export function NavItem({to, text}) {
     return (
-        <li className="dropdown">
-            <a Link to="#">Courses</a>
-            <div className="dropdown-content">
-                <a Link to="#">Programming</a>
-                <a Link to="#">Data Structures</a>
-                <a Link to="#">Algorithms</a>
-            </div>
-        </li>
+        <li className='group relative'>
+        <Link className='' to={to}>{text}</Link>
+        <div className='h-0 group-hover:h-[4px] bg-[#982dff] absolute w-full' />
+    </li>
     )
 }
 

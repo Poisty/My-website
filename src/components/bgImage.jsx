@@ -3,3 +3,5 @@ export const BackgroundImage = ({className}) => {
         <img src="/test.jpg" className={`absolute h-full w-full object-cover opacity-100 ${className}`} alt="" />
     )
 }
+
+

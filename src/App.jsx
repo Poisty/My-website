@@ -9,20 +9,26 @@ import Footer from './components/Footer'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import AboutMe from './components/AboutMe'
 import Programmering from './components/Programmering'
+import THREESpace from './components/animation/three'
+
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
 <Router>
   <Header/>
-  <Nav/>
+
   <Routes>
-    <Route path="/" element ={<Main/>} />
+    <Route path="/" element ={
+        <>
+        <Main />
+      </>
+    } />
     <Route path="/about" element ={<AboutMe/>} />
     <Route path="/programming" element ={<Programmering/>} />
   </Routes>
+  {/* <THREESpace/> */}
   <Footer/>
 </Router>
   )
