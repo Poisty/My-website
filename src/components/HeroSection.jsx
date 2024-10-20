@@ -3,7 +3,7 @@ import THREESpace from "./animation/three"
 export const HeroSection = () => {
     return (
         <>
-            <section className="min-h-[calc(100vh-172px)] z-10 flex flex-col gap-16 justify-center items-center">
+            <section className="min-h-[calc(100dvh-172px)] z-10 flex flex-col gap-16 justify-center items-center">
                 <div className="flex gap-8" >
                     {/* <img
                         className="w-auto h-[180px]"
