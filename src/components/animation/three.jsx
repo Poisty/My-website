@@ -149,10 +149,18 @@ const THREESpace = () => {
   }, []);
 
   return (
-    <div className="absolute bg-black -z-10 top-0 transition-all">
-      <canvas ref={canvasRef} className="transition-all duration-500" />
-    </div>
+    // <div className="absolute bg-black -z-10 top-0 transition-all">
+    //   <canvas ref={canvasRef} className="transition-all duration-500" />
+    // </div>
+    <div className="absolute bg-black -z-10 top-0 w-full h-full overflow-x-hidden">
+  <canvas ref={canvasRef} className="" />
+</div> 
   );
+
+
+
+
 };
 
 export default THREESpace;
+
