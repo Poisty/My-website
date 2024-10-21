@@ -8,10 +8,10 @@ function AboutMe() {
     <div className="relative min-h-screen p-4 flex justify-center items-center">
       <div className="flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-6"> 
         <Card className="w-full md:w-1/2 p-8">
-          <h1 className="text-2xl mb-4 font-bold font-raleway italic text-center">
+          <h1 className="text-2xl mb-4 font-bold text-center">
             Fredrik Villo
           </h1>
-          <h2 className="text-xl mb-4 font-raleway italic text-left leading-relaxed">
+          <h2 className="text-xl mb-4 text-left leading-relaxed">
             Jeg studerer for tiden til å bli dataingeniør, og er nå i mitt tredje semester. Teknologi og problemløsning er noe jeg brenner for, og jeg finner stor glede i å skape og utvikle nye løsninger. Når jeg ikke er opptatt med studier, tilbringer jeg tid med barna mine og hunden, som gir meg både glede og energi.
           </h2>
         </Card>
