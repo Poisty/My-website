@@ -5,6 +5,7 @@ export const HeroSection = () => {
         <>
             <section className="min-h-[calc(100dvh-132px)] z-10 flex flex-col gap-16 justify-center items-center">
                 <div className="flex gap-8" >
+                    
                     {/* <img
                         className="w-auto h-[180px]"
                         src="/pcgif.gif" alt="Project 4" /> */}
@@ -15,6 +16,7 @@ export const HeroSection = () => {
                     </article>
 
                 </div>
+                
                 {/* p taggen under kan fjernes om du ikke ønsker mer tekst i hero seksjonen: */}
                 {/* <p>ghfdoghfuijdpshgfipuodshgofdshngoåfdhgoåfdshogfdhn</p> */}
                 {/* <img 

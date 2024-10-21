@@ -18,7 +18,7 @@ function App() {
   return (
 <Router>
   <Header/>
-
+<Nav/>
   <Routes>
     <Route path="/" element ={
         <>
