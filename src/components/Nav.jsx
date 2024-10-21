@@ -53,9 +53,15 @@ function Nav() {
 
 export function NavItem({ to, text }) {
     return (
-        <li className='group relative'>
-            <Link className='block px-2 py-1 hover:bg-[#982dff] hover:text-white rounded-md transition-colors duration-300' to={to}>{text}</Link>
-            <div className='h-0 group-hover:h-[4px] bg-[#982dff] absolute w-full bottom-0' />
+        <li className="group relative">
+            <Link
+                className="block px-2 py-1 rounded-md transition-colors duration-300"
+                to={to}
+            >
+                {text}
+            </Link>
+            {/* Hover effect only for underline */}
+            <div className="h-0 group-hover:h-[4px] bg-[#982dff] absolute w-full bottom-0 transition-all duration-300" />
         </li>
     );
 }
