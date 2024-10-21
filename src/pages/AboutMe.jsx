@@ -1,13 +1,13 @@
 import React from 'react';
-import { Content } from './layout/Content';
-import Card from './layout/card';
+import { Content } from '../components/layout/Content';
+import Card from '../components/layout/card';
 
 function AboutMe() {
   return (
     <Content>
     <div className="relative min-h-screen p-4 flex justify-center items-center">
       <div className="flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-6"> 
-        <Card className="w-full md:w-1/2">
+        <Card className="w-full md:w-1/2 p-8">
           <h1 className="text-2xl mb-4 font-bold font-raleway italic text-center">
             Fredrik Villo
           </h1>
@@ -24,27 +24,23 @@ function AboutMe() {
     </div>
   
     {/* Images below the card */}
-    <div className="flex flex-col items-center justify-center p-4 mt-8">
-      <h3 className="text-center font-raleway text-xl font-bold mb-4">
+    <div className="flex flex-col items-center gap-4 justify-center p-4">
+      <h3 className="text-center text-4xl">
         Mine verv
       </h3>
-      <div className="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-6">
+      <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-6">
         <img 
           src="/VOLTCircle2.png" 
           alt="Image 1"
-          className="w-32 h-32 rounded-[100%] object-cover" 
+          className="w-32 h-32" 
         />
-        <div className="relative">
           <img 
             src="/nito.png" 
             alt="Image 2"
-            className="w-50 h-48 object-cover relative transform translate-y-[-35px]" 
+            className="w-auto h-24" 
           />
-        </div>
       </div>
     </div>
-  
-  
   </Content>
   
   );

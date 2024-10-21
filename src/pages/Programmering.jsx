@@ -1,5 +1,5 @@
-import { HeroSection } from "./HeroSection"
-import { Content } from './layout/Content';
+import { Content } from "../components/layout/Content"
+
 
 function Programmering() {
 

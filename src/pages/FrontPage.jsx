@@ -1,8 +1,8 @@
-import { HeroSection } from "./HeroSection";
-import { Content } from './layout/Content';
-import Card from './layout/card';
+import { HeroSection } from "../components/HeroSection";
+import { Content } from '../components/layout/Content';
+import Card from '../components/layout/card';
 
-function Main() {
+function FrontPage() {
 
     return (
         <Content>
@@ -10,7 +10,7 @@ function Main() {
 
             {/* Quote card */}
             <div className="relative min-h-screen p-4 flex justify-center items-center">
-                <Card>
+                <Card className="max-w-[250px] p-8">
                     <h2 className="text-xl mb-4 font-serif italic text-left">
                         "Tell me and I forget, teach me and I may remember, involve me and I learn."
                     </h2>
@@ -34,4 +34,4 @@ function Main() {
     );
 }
 
-export default Main;
+export default FrontPage;

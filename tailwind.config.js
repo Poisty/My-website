@@ -16,6 +16,7 @@ export default {
         lato: ['Lato', 'sans-serif'], // Add 'Lato'
         montserrat: ['Montserrat', 'sans-serif'], // Add 'Montserrat'
         alegreya: ['Alegreya', 'serif'], // Add 'Alegreya'
+        figtree: ['Figtree', 'sans-serif'],
       },
     },
   },

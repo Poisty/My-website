@@ -11,13 +11,13 @@ function Nav() {
     }, [currentUrl]);
 
     return (
-        <nav className="bg-[#323035] px-4 py-2">
-            <div className="flex items-center justify-between h-12">
-                <Link to="/" className="z-10">
+        <nav className="bg-[#323035] px-4 sm:px-6 lg:px-8 xl:px-12 py-2">
+            <div className="flex items-center relative justify-end h-12">
+                <Link to="/" className="z-10 left-0 -translate-y-1/3 absolute">
                     <img
-                        className="max-h-[200px] h-full w-auto"
-                        src="/poistLabs2.png"
-                        alt="Project 4"
+                        className="h-24 w-auto"
+                        src="/poistlogo.png"
+                        alt="poist labs logo"
                     />
                 </Link>
                 <ul className="flex items-center space-x-4">
@@ -30,19 +30,11 @@ function Nav() {
                         <Link className="" to="#">Courses</Link>
                         <div className="dropdown-content">
                             <Link to="/programming">Programmering</Link>
-                            <Link to="#">Network and security</Link>
+                            <Link to="/network&security">Network and security</Link>
                             <Link to="#">Algorithms and datastructures</Link>
                         </div>
                     </li>
-                    <li className="dropdown">
-                        <Link to="#">Projects</Link>
-                        <div className="dropdown-content">
-                            <a target='_blank' href="/LAB01.pdf">Lab 1 rapport</a>
-                            <a target='_blank' href="/Lab2_Rapport.pdf">Lab 2 rapport</a>
-                            <a target='_blank' href="/Lab3_Rapport.pdf">Lab 3 rapport</a>
-                            <a target='_blank' href="/Lab_4_Dynamisk_ruting.pdf">Lab 4 rapport</a>
-                        </div>
-                    </li>
+                    <NavItem to="#" text="Portfolio"/>
                     <NavItem to="about" text="About" />
                     <NavItem to="#" text="Contact" />
                 </ul>

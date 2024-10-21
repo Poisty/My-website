@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  /* font-family: Arial, sans-serif; */
   margin: 0;
   padding: 0;
   background-color: var(--background-color);
@@ -19,7 +19,7 @@ header {
   background-color: var(--primary-color);
   /* padding: 1rem; */
   /* color: var(--secondary-color); */
-  min-height: 80px;
+  /* min-height: 80px; */
   display: flex;
   align-items: center;
 }
@@ -161,8 +161,8 @@ footer {
 
   .card {
   margin: 0 auto;
-  padding: 2em;
-  width: 300px;
+  /* padding: 0.5em; */
+  max-width: 550px;
   background: #1c1f2b;
   text-align: center;
   border-radius: 10px;
@@ -181,7 +181,7 @@ footer {
   position: absolute;
   height: calc(100% + 5px);
   width: calc(100% + 5px);
-  background-image: conic-gradient(from var(--angle), transparent 70%, #ff4545, #00ff99, #006aff, #ff0095, #ff4545);
+  background-image: conic-gradient(from var(--angle), transparent 70%, #00c4ff, #8c2be9, #f8f8f9, #00fff0);
   top: 50%;
   left: 50%;
   translate: -50% -50%;
@@ -191,7 +191,13 @@ footer {
   opacity: 0;
   transition: opacity 0.3s ease;
   pointer-events: none;
+  animation: 10s spin linear infinite;
 }
+
+/* 00c4ff 
+8c2be9
+f8f8f9
+*/
 
 .card::before {
   filter: blur(1.5rem);
@@ -200,11 +206,12 @@ footer {
 .card:hover::after,
 .card:hover::before {
   opacity: 1;
-  animation: 6s spin linear infinite;
+  /* animation: 6s spin linear infinite; */
 }
 
+/* animation glow: */
 .card:hover::before {
-  opacity: 0.5;
+  opacity: .5;
 }
 
 

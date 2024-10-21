@@ -33,7 +33,6 @@ const THREESpace = () => {
 
     const neonColors = [
       new THREE.Color(0x00BFFF),
-      new THREE.Color(0xFFFFFF), //White
       new THREE.Color(0x8A2BE2), 
       new THREE.Color(0xBA55D3), 
       new THREE.Color(0xF5F5F5), //White Smoke
