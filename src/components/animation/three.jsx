@@ -26,7 +26,7 @@ const THREESpace = () => {
     renderer.current.setSize(window.innerWidth, window.innerHeight);
     renderer.current.setClearColor(0x000000, 1);
 
-    const particleCount = 700;
+    const particleCount = 100;
     const positions = new Float32Array(particleCount * 3);
     const colors = new Float32Array(particleCount * 3);
     const sizes = new Float32Array(particleCount);

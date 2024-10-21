@@ -110,7 +110,7 @@ footer {
 
 
 
-/* .card{
+ /* .card{
   margin: 0 auto;
   padding: 2em;
   width: 300px;
@@ -132,27 +132,19 @@ footer {
   height: calc(100% + 5px);
   width: calc(100% + 5px);
   background-image: conic-gradient(from var(--angle), transparent 70%, #ff4545,#00ff99, #006aff, #ff0095, #ff4545);
+  
   top: 50%;
   left: 50%;
   translate: -50% -50%;
   z-index: -1;
   padding: 10px;
   border-radius: 10px;
-  animation: 3s spin linear infinite;
+  animation: 6s spin linear infinite;
   pointer-events: none;
 }
 .card::before{
   filter: blur(1.5rem);
   opacity: 0.5;
-}
-
-
-.card:hover::after {
-  opacity: 1;
-}
-
-.card:hover::before {
-  opacity: 0.5; 
 }
 
 
@@ -163,11 +155,11 @@ footer {
   to{
     --angle: 360deg;
   }
-}  */
+}   */
 
 
 
- .card {
+  .card {
   margin: 0 auto;
   padding: 2em;
   width: 300px;
@@ -208,7 +200,7 @@ footer {
 .card:hover::after,
 .card:hover::before {
   opacity: 1;
-  animation: 3s spin linear infinite;
+  animation: 6s spin linear infinite;
 }
 
 .card:hover::before {
@@ -225,4 +217,4 @@ footer {
   to {
     --angle: 360deg;
   }
-} 
+}  
