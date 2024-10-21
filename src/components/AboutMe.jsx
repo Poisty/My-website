@@ -22,6 +22,21 @@ function AboutMe() {
             className="w-60 h-60 rounded-[150px] object-cover" /> 
         </div>
       </div>
+
+      {/* Images below the card */}
+      <div className="flex justify-center space-x-6 p-4 mt-1 mr-40">
+        <img 
+          src="/VOLTCircle2.png" 
+          alt="Image 1"
+          className="w-32 h-32 rounded-lg object-cover shadow-lg transform translate-y-[-250px]" 
+        />
+        <img 
+          src="/nito.png" 
+          alt="Image 2"
+          className="w-50 h-48 object-cover shadow-lg transform translate-y-[-280px]" 
+        />
+      </div>
+
       <div className="relative min-h-screen p-4 flex justify-center items-center">
         <div className="absolute" style={{ top: '-20%', left: '3000%', transform: 'translate(-50%, -50%)' }}>
           <Card>
