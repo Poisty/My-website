@@ -9,7 +9,7 @@ function NetworkAndSecurity() {
         <Content>
              <div className="flex flex-col items-center gap-4 justify-center p-4">
                 <h1 className="text-center text-4xl font-bold text-[#7b88ff]">
-                    Network and Security Labs
+                    Nettverk & Sikkerhet
                 </h1>
             </div>
             <div className='flex flex-wrap gap-8 p-8'>
@@ -20,10 +20,8 @@ function NetworkAndSecurity() {
             </div>
             <div className="flex flex-col items-center gap-4 justify-center p-4">
                 <h2 className="text-center text-xl max-w-prose whitespace-normal">
-                The importance of security in networking is paramount to succeed
-                as a developer or cybersecurity specialist. In this section, you
-                can read my work on the subject, which includes insights from school
-                assignments and things I've learned through practical applications, key concepts, and best practices in network security.
+                Viktigheten med sikkerhet når det kommer til nettverk er svært viktig, 
+                på denne siden har jeg lagt til rapporter og prosjekter jeg har gjort i faget.
 
                 </h2>
             </div>

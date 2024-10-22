@@ -8,7 +8,7 @@ function Programmering() {
       {/* <HeroSection/> */}
 
             <section className="p-8 flex flex-col justify-content items-center w-full">
-            <h3>Nothing here yet!</h3>
+            <h3>Ingenting her enda</h3>
                 <img
                     className="w-[150px]"
                     src="/gif_tegning.gif" alt="Project 4" />

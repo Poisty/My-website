@@ -26,25 +26,25 @@ function Nav() {
                 <ul className="flex items-center space-x-4">
                     {url !== "/" && (
                         <li>
-                            <NavItem to="/" text="Home" />
+                            <NavItem to="/" text="Hjem" />
                         </li>
                     )}
                     <li className="dropdown relative z-30">
-                        <Link className="" to="#">Courses</Link>
+                        <Link className="" to="#">Studie-emner</Link>
                         <div className="dropdown-content absolute z-40">
                             <Link to="/programming">Programmering</Link>
-                            <Link to="/network&security">Network and security</Link>
-                            <Link to="#">Algorithms and datastructures</Link>
+                            <Link to="/network&security">Nettverk og sikkerhet</Link>
+                            <Link to="#">Algoritmer og datastrukturer</Link>
                         </div>
                     </li>
                     <li className="transition-transform duration-300 hover:scale-110">
-                    <NavItem to="#" text="Portfolio"/>
+                    <NavItem to="#" text="Portefølje"/>
                     </li>
                     <li className="transition-transform duration-300 hover:scale-110">
-                    <NavItem to="about" text="About"/>
+                    <NavItem to="about" text="Om"/>
                     </li>
                     <li className="transition-transform duration-300 hover:scale-110">
-                    <NavItem to="#" text="Contact"/>
+                    <NavItem to="#" text="Kontakt"/>
                     </li>
                    
                     

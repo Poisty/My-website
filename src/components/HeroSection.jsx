@@ -10,8 +10,9 @@ export const HeroSection = () => {
                         className="w-auto h-[180px]"
                         src="/pcgif.gif" alt="Project 4" /> */}
                     <article className="flex gap-8 flex-col">
-                        <h1 className="text-3xl md:text-5xl text-[#7b88ff] font-bold">Resources for Computer Engineering Students</h1>
-                        <h2 className="text-xl md:text-2xl ">Reports, Assignments, and Guidance for Computer Engineering Students: Find Resources to Help You Succeed</h2>
+                        <h1 className="text-3xl md:text-5xl text-[#7b88ff] font-bold">Velkommen til Poist Labs!</h1>
+                        <h2 className="text-xl md:text-2xl ">Her vil du finne rapporter og kode fra emner jeg har tatt
+                                                             under studietiden min ved USN, mens jeg har studert for å bli dataingeniør.</h2>
                         <h3 className="text-lg md:text-xl">Fredrik Villo</h3>
                     </article>
 
