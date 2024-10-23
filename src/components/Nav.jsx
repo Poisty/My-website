@@ -34,7 +34,7 @@ function Nav() {
                         <div className="dropdown-content absolute z-40">
                             <Link to="/programming">Programmering</Link>
                             <Link to="/network&security">Nettverk og sikkerhet</Link>
-                            <Link to="#">Algoritmer og datastrukturer</Link>
+                            <Link to="/algoritmer">Algoritmer og datastrukturer</Link>
                         </div>
                     </li>
                     <li className="transition-transform duration-300 hover:scale-110">

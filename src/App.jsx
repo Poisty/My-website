@@ -7,6 +7,7 @@ import AboutMe from './pages/AboutMe'
 import FrontPage from './pages/FrontPage'
 import Programmering from './pages/Programmering'
 import NetworkAndSecurity from './pages/NetworkAndSecurity'
+import Algoritmer from './pages/Algoritmer'
 
 
 
@@ -25,6 +26,7 @@ function App() {
     <Route path="/about" element ={<AboutMe/>} />
     <Route path="/programming" element ={<Programmering/>} />
     <Route path="/network&security" element ={<NetworkAndSecurity/>} />
+    <Route path="/algoritmer" element ={<Algoritmer/>} />
   </Routes>
   {/* <THREESpace/> */}
   <Footer/>
