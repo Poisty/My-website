@@ -1,6 +1,7 @@
 import React from 'react';
 import { Content } from '../components/layout/Content';
 import Glass from '../components/layout/Glass';
+import '../app.css'; 
 
 
 function Algoritmer() {
