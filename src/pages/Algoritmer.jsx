@@ -2,6 +2,7 @@ import React from 'react';
 import { Content } from '../components/layout/Content';
 import Glass from '../components/layout/Glass';
 import '../app.css'; 
+import Content_background from '../components/layout/Content_background';
 
 
 function Algoritmer() {
@@ -36,7 +37,7 @@ function Algoritmer() {
 
                 </Glass>
             </Content>
-        </div>
+            </div>
     );
 }
 
