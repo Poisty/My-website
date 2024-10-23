@@ -158,16 +158,7 @@ footer {
   }
 }   */
 
-.textbox{
-  margin: 0 auto;
-  /* padding: 0.5em; */
-  max-width: 500px;
-  min-height: 400px;
-  /* background: #e6171e; */
-  text-align: center;
-  border-radius: 10px;
-  position: relative;
-}
+
   .card {
   margin: 0 auto;
   /* padding: 0.5em; */
@@ -249,13 +240,39 @@ f8f8f9
 
 /*!gjennomsiktig glass effekt  */
 .glass{
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.1);
+    /* border-radius: 32px;  */
+    /* max-width: 250px;
+    min-height: 400px; */
+    padding: 20px; 
 }
 
 .content-background {
-  background-image: url('forest.jpg'); /* Use an actual image path */
+  background-image: url('bubbletech.png'); /* Use an actual image path */
   background-size: cover;
   background-position: center;
   padding: 2rem;
   min-height: 100vh; /* Ensure it covers the full height */
 }
+ 
+ /* .textbox{
+  margin: 0 auto;
+
+  max-width: 220px;
+  min-height: 400px;
+  
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+}  */
+
+.circle{
+  width: 100px; /* Adjust the size of the circle */
+  height: 100px;
+  border-radius: 50%;
+  position: absolute; /* This makes it float in relation to its parent */
+  z-index: -1; /* Ensures it's behind the glass */
+  background-color: rgb(227,111,209); /* Or any other color */
+}
+
