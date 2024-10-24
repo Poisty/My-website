@@ -3,7 +3,7 @@ import { Content } from '../components/layout/Content';
 import Glass from '../components/layout/Glass';
 import '../app.css'; 
 import Content_background from '../components/layout/Content_background';
-import bubbletech from '../bubbletech.png'
+
 
 function Algoritmer() {
     return (
