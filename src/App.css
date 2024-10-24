@@ -249,7 +249,7 @@ f8f8f9
 }
 
 .content-background {
-  background-image: url('/bubbletech.png');
+  background-image: url('bubbletech.png');
   background-size: cover;
   background-position: center;
   padding: 2rem;

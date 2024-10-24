@@ -1,17 +1,21 @@
 import React from 'react';
 import { Content } from '../components/layout/Content';
 import Glass from '../components/layout/Glass';
-import '../app.css'; 
-import Content_background from '../components/layout/Content_background';
+import '../App.css'; 
+
 
 
 function Algoritmer() {
     return (
+        
+
+        
         <div className="content-background">
             <Content>
 
                 <Glass className="border w-[400px] h-[600px] rounded-[32px]">
                     <Glass className="rounded-lg mb-4">
+
                     <h1 className="font-bold">
                             Denne siden holder på å bli designet
                         </h1>
