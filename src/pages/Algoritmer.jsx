@@ -1,8 +1,7 @@
 import React from 'react';
 import { Content } from '../components/layout/Content';
 import Glass from '../components/layout/Glass';
-import Content_background from '../components/layout/Content_background';
-import './App.css';
+
 
 
 
