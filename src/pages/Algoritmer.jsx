@@ -10,7 +10,7 @@ function Algoritmer() {
         <div className="content-background">
             <Content>
 
-                <Glass className="border w-[400px] h-[600px] rounded-[32px]">
+                <Glass className="w-[400px] h-[600px] rounded-[32px]">
                     <Glass className="rounded-lg mb-4">
                     <h1 className="font-bold">
                             Denne siden holder på å bli designet

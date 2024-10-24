@@ -11,19 +11,19 @@ function Nav() {
     }, [currentUrl]);
 
     return (
-        <nav className="bg-[#323035] px-4 sm:px-6 lg:px-8 xl:px-12 py-2 relative z-20">
+        <nav className="bg-[#323035]  px-4 sm:px-6 lg:px-8 xl:px-12 py-2 relative z-20">
             <div className="flex items-center relative justify-end h-12">
                 <Link
                     to="/"
                     className="z-10 left-0 -translate-y-1/3 absolute"
                 >
                     <img
-                        className="h-24 w-auto transition-transform duration-300 hover:scale-110" // Size increase on hover
+                        className="h-24 w-auto transition-transform duration-300 hover:scale-[103.5%]" // Size increase on hover
                         src="/poistlogo.png"
                         alt="poist labs logo"
                     />
                 </Link>
-                <ul className="flex items-center space-x-4">
+                <ul className=" items-center md:flex hidden space-x-4">
                     {url !== "/" && (
                         <li>
                             <NavItem to="/" text="Hjem" />
@@ -37,15 +37,11 @@ function Nav() {
                             <Link to="/algoritmer">Algoritmer og datastrukturer</Link>
                         </div>
                     </li>
-                    <li className="transition-transform duration-300 hover:scale-110">
+         
                     <NavItem to="#" text="Portefølje"/>
-                    </li>
-                    <li className="transition-transform duration-300 hover:scale-110">
                     <NavItem to="about" text="Om"/>
-                    </li>
-                    <li className="transition-transform duration-300 hover:scale-110">
                     <NavItem to="#" text="Kontakt"/>
-                    </li>
+                 
                    
                     
                 </ul>
@@ -56,7 +52,7 @@ function Nav() {
 
 export function NavItem({ to, text }) {
     return (
-        <li className="group relative">
+        <li className="group relative transition-transform duration-[100ms] hover:scale-110">
             <Link
                 className="block px-2 py-1 rounded-md transition-colors duration-300"
                 to={to}

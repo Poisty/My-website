@@ -240,16 +240,17 @@ f8f8f9
 
 /*!gjennomsiktig glass effekt  */
 .glass{
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.1);
     /* border-radius: 32px;  */
     /* max-width: 250px;
     min-height: 400px; */
     padding: 20px; 
+    box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.4);
 }
 
 .content-background {
-  background-image: url('/bubbletech.png');
+  background-image: url('/bubbletech_3.png');
   background-size: cover;
   background-position: center;
   padding: 2rem;
