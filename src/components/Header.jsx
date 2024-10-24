@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa"
 
 function Header() {
     return (
-        <header className="flex px-4 sm:px-6 lg:px-8 xl:px-12 justify-end py-2 gap-4 bg-[#323035]">
+        <header className="flex px-4 sm:px-6 lg:px-8 xl:px-12 justify-end py-2 gap-4 bg-[#7a88ff]">
             {/* GitHub Logo */}
 
             <a
